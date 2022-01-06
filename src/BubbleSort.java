@@ -5,7 +5,7 @@ public class BubbleSort {
 
     //thuat toan bubble sort 
 
-    int[] bubbleSort(int[] arr){
+    void bubbleSort(int[] arr){
         //{2,5,3,6,8,1};
         int temp;
         for(int i = 0; i < arr.length - 1; i++){
@@ -17,7 +17,6 @@ public class BubbleSort {
                 }
             }
         }
-        return arr;
     }
 
     void printArray(int arr[]) 
